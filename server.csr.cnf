@@ -1,0 +1,14 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+
+[dn]
+C=US
+ST=randomState
+L=randomCity
+O=randomOrganization
+OU=randomOrganizationUnit
+emailAddress=achitnis@gmail.com
+CN = localhost
